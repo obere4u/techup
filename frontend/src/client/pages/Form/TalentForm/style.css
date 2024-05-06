@@ -1,0 +1,49 @@
+/* Talent Form styles */
+
+input {
+  border: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: none;
+  appearance: none;
+}
+
+#stateOfResidence, #LGAOfResidence, #gender, #educationQualification, #programOfChoice, #experienceLevel {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: none;
+  border: none;
+}
+select::marker {
+  display: none;
+  appearance: none;
+}
+
+select::option {
+  text-align: center;
+}
+
+img {
+  width: 20px;
+}

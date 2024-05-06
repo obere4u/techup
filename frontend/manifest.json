@@ -1,0 +1,21 @@
+{
+  "short_name": "Techup Ekiti",
+  "name": "Techup Ekiti",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#f1f1f1",
+  "background_color": "#1A2421",
+  "icons": [
+    {
+      "src": "Kinplus-favicon.png",
+      "sizes": "17x17",
+      "type": "image/png"
+    },
+    {
+      "src": "Kinplus-favicon.png",
+      "sizes": "17x17",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

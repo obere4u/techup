@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /* .env/
+Disallow: /dev/
+Disallow: /staging/
